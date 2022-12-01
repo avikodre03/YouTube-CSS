@@ -128,7 +128,7 @@ ul li img {
     margin-right: 1.5rem;
 }
 
-.mainContentLeftSection .mainNavBarLeftSectionHomeContainer ul li:hover {
+.mainContentLeftSection ul li:hover {
     cursor: pointer;
     background-color: grey;
 
@@ -180,6 +180,7 @@ ul li img {
     padding: .5rem 1rem;
     background-color: rgb(80, 79, 78);
     border-radius: 40px;
+    margin: .2rem;
 }
 
 .mainContentRightSectionTop p:hover {
@@ -208,7 +209,7 @@ ul li img {
 
 .mainContentRightSectionBottom .videoContainer:hover {
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 
