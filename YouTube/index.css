@@ -88,6 +88,7 @@
     height: 90%;
     /* border: 2px solid blue; */
     display: flex;
+    justify-content: center;
 }
 
 .mainContentLeftSection {
@@ -236,4 +237,48 @@ ul li img {
 .ThreeDotsContainer {
     margin-right: .5rem;
     font-weight: 900;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mainContentRightSectionBottom .videoContainer {
+        width: 20%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .mainContentRightSectionBottom .videoContainer {
+        width: 43%;
+    }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width:426px) {
+    .mainContentRightSectionBottom .videoContainer {
+        width: 100%;
+    }
+
+    .mainContentLeftSection {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width:768px) {
+    .mainContentRightSection {
+        width: 75%;
+    }
+
+    .mainContentLeftSection {
+        width: 25%;
+        height: 100%;
+        /* border: 2px solid burlywood; */
+        overflow-y: scroll
+    }
+
+    .mainContentRightSectionBottom .videoContainer {
+        width: 40%;
+    }
 }
